@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "uvm" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "PostLab7Tb_behav" "xil_defaultlib.PostLab7Tb" "xil_defaultlib.glbl" -log "elaborate.log" 
