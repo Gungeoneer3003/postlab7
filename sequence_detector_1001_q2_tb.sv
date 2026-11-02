@@ -50,19 +50,19 @@ module sequence_detector_1001_q2_tb;
 
         #5;
 
-       
+       //Test 1: 1001 should output 1
         in_bit = 1; #20;
         in_bit = 0; #20;
         in_bit = 0; #20;
         in_bit = 1; #20;
 
-        // Test 2: 1000 -- detected stays 0
+        // Test 2: 1000 should output 0
         in_bit = 1; #20;
         in_bit = 0; #20;
         in_bit = 0; #20;
         in_bit = 0; #20;
 
-      
+        //Test 3: 1001001 should output 1 and then 0 because non-overlapping
         in_bit = 1; #20;
         in_bit = 0; #20;
         in_bit = 0; #20;
@@ -71,7 +71,7 @@ module sequence_detector_1001_q2_tb;
         in_bit = 0; #20;
         in_bit = 1; #20;
 
-        
+        //Test 4: 10011001 should output 1 and 1 because non-overlapping
         in_bit = 1; #20;
         in_bit = 0; #20;
         in_bit = 0; #20;
